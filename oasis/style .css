@@ -1,0 +1,345 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/back.jpg);
+  background-size: cover;
+}
+
+.nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+}
+
+.logo span {
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+.logo img {
+  height: 25px;
+  margin-left: 40px;
+}
+
+.nav2 {
+  color: black;
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  gap: 60px;
+  margin-right: 40px;
+}
+.nav2 li:hover {
+  color: red;
+}
+
+.h-text {
+  display: flex;
+}
+.h-text h1 {
+  color: white;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  margin-left: 20px;
+}
+
+.h-text h1 span {
+  margin-left: 100px;
+}
+#btn {
+  padding: 10px 30px;
+  margin-top: 30px;
+  font-family: sans-serif;
+  float: right;
+  margin-right: 40px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+}
+#btn:hover {
+  background-color: white;
+  transition: 1.5s;
+  color: black;
+}
+
+h5 {
+  color: white;
+
+  font-size: 20px;
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+.services {
+  color: white;
+}
+.about {
+  width: 100%;
+  height: 90%;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/flower.jpg);
+
+  background-size: cover;
+}
+
+.about section {
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin-top: 12%;
+  margin-right: 50px;
+  font-size: 20px;
+  line-height: 0.8cm;
+}
+
+.about section h1 {
+  text-transform: uppercase;
+}
+
+.web {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
+.left img {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 30px;
+}
+
+.right {
+  width: 60%;
+  color: white;
+  margin-right: 30px;
+}
+button {
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid red;
+  color: white;
+}
+button:hover {
+  background-color: red;
+  box-shadow: 0 0 25px red;
+  color: white;
+  transition: 0.8s;
+}
+
+.colud {
+  display: flex;
+}
+
+.left-cloud {
+  float: right;
+  margin-top: 30px;
+}
+.left-cloud img {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 30px;
+}
+
+.right-cloud {
+  margin-top: 80px;
+  width: 50%;
+  color: white;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.graphic {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.left-gra {
+  width: 50%;
+}
+.left-gra img {
+  height: 40vh;
+  width: 40vw;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+
+.right-gra {
+  width: 60%;
+  margin-top: 60px;
+  color: white;
+  margin-right: 30px;
+}
+
+.animation {
+  display: flex;
+}
+
+.left-ani {
+  float: right;
+  margin-top: 30px;
+}
+.left-ani img {
+  height: 40vh;
+  margin-top: 80px;
+  width: 40vw;
+  float: right;
+  border-radius: 30px;
+}
+
+.right-ani {
+  margin-top: 80px;
+  width: 50%;
+  color: white;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+#int {
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+/*card item */
+.card-grid {
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: repeat(3, 2fr);
+
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card img {
+  width: 80%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555;
+}
+
+.card:hover {
+  background-color: violet;
+  color: white;
+}
+
+.advanced-footer {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: center;
+}
+.footer-logo img {
+  height: 60%;
+  margin-top: 30%;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+
+ul li {
+  color: white;
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-right: 35%;
+}
+
+#b1 {
+  color: black;
+}
+
+#b1:hover {
+  color: white;
+}
+
+.ai {
+  height: 100%;
+  width: 100%;
+}
